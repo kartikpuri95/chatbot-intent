@@ -1,0 +1,63 @@
+{
+  "entities": {
+    "snips/datePeriod": {}
+  },
+  "intents": {
+    "getTotalExpenditure": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "Give me my total spend for "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "month",
+              "text": "january"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Get my current "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "month",
+              "text": "2019"
+            },
+            {
+              "text": " expenditure"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much i have spent on food in "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "month",
+              "text": "from monday to friday"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is my total expenditure on food for "
+            },
+            {
+              "entity": "snips/datePeriod",
+              "slot_name": "month",
+              "text": "from wednesday 27th to saturday 30th"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

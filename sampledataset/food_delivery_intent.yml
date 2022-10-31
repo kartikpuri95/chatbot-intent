@@ -1,0 +1,10 @@
+type: intent
+name: getTotalExpenditure
+slots:
+  - name: month
+    entity: snips/datePeriod
+utterances:
+  - Give me my total spend for [month]
+  - Get my current [month] expenditure
+  - How much i have spent on food in [month]
+  - What is my total expenditure on food for [month]
